@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.home{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(64, 96, 114);
+}
+
+.login{
+  width: 100vw;
+  height: 150vh;
+  background-color: rgb(3, 45, 65);
+}
+
+.login__hero{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.login__hero > img{
+  width: 150px;
+  height: 150px;
+}
+
+.login__hero > h1{
+  margin-left: -34px;
+  color: skyblue;
+  letter-spacing: 2px;
+  font-size: 45px;
+}
+
+.login__box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column !important;
+  background-color: rgb(83, 80, 119);
+  width: 350px;
+  margin-left: 40%;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.register__box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column !important;
+  background-color: rgb(83, 80, 119);
+  width: 400px;
+  margin-left: 40%;
+  height: 650px;
+  border-radius: 15px;
+}
+
+.text-input {
+  width: 60% !important;
+  margin-bottom: 20px !important;
+  width: 300px !important;
+  background-color: gray;
+}
+
+.error{
+  border: 1px solid red !important;
+}
+
+.input-feedback{
+  margin-top: -22px !important;
+}
+
+.login__btn{
+  background-color: skyblue !important;
+}
+
+p{
+  color: aqua;
+  margin-left: 30px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+.login__regBtn{
+  color: white !important;
+  margin-left: 10px !important;
+  margin-top: 8px !important;
+  border: 1px solid skyblue !important;
+}
+
+.preferences{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(44, 52, 87);
+}
+
+.preferences__close{
+  position: absolute;
+  top: 30%;
+  left: 78%;
+  padding: 5px;
+  background-color: turquoise;
+  border-radius: 100px;
+  z-index: 10;
+}
+
+.preferences__box{
+  background-color: rgb(38, 40, 51);
+  width: 900px;
+  height: 300px;
+  border-radius: 10px;
+  position: absolute;
+  top: 32%;
+  left: 20%;
+}
+
+.preferences__header{
+  width: 100%;
+  height: 40px;
+  background-color: rgb(22, 120, 165);
+  margin-top: -20px;
+  justify-content: center;
+  color: white;
+}
+
+.preferences__select{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.preferences__tags{
+  width: 95%;
+  border: 1px solid rgb(3, 45, 65) !important;
+  border-radius: 5px;
+  margin: 25px !important;
+  background-color: rgb(114, 149, 163);
+}
+
+.preferences__tagName{
+  margin-left: 15px;
+}
+
+.preferences__btn{
+  margin-top: 10px !important;
+  border: 1px solid skyblue !important;
+  color: white !important;
+  width: 100px ;
+  margin-left: 45% !important;
+}

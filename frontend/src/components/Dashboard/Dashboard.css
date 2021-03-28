@@ -1,0 +1,16 @@
+.dash{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(44, 52, 87);
+  }
+
+.dash__box{
+    background-color: rgb(38, 40, 51);
+    width: 900px;
+    height: 300px;
+    border-radius: 10px;
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    z-index: 1;
+}
